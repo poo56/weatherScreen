@@ -3,7 +3,7 @@ public class WeatherDetailsClass {
     public static WeatherDetailsWrapper getWeatherDetails(String cityName){
         //Frame the EndPoint URL
         @AuraEnabled
-        String apiKey = '47b7f9848a1beb0c904ab8ee2b3567be';
+        String apiKey = 'API-KEY';
         String endpoint = 'http://api.openweathermap.org/data/2.5/weather';
         endpoint += '?q='+cityName;
         endpoint += '&units=metric';
